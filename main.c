@@ -75,6 +75,8 @@ int main(void)
 {
     WDTCTL = WDTPW | WDTHOLD;               // Stop WDT
 
+//敖德萨发的发
+
     // GPIO Setup
     P1OUT &= ~BIT0;                         // Clear LED to start
     P1DIR |= BIT0;                          // Set P1.0/LED to output
